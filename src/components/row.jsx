@@ -6,10 +6,10 @@ export default class Row extends React.Component {
   render() {
     return (
       <tr>
-        <td>{this.props.index}</td>
-        <td>{this.props.name}</td>
-        <td>{this.props.recent}</td>
-        <td>{this.props.alltime}</td>
+        <td className="col-xs-2">{this.props.index}</td>
+        <td className="col-xs-4">{this.props.name}</td>
+        <td className="col-xs-3">{this.props.recent}</td>
+        <td className="col-xs-3">{this.props.alltime}</td>
       </tr>
     )
   }

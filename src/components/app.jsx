@@ -7,6 +7,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="container">
+				<h1 className="text-center">Free Code Camper Leaderboard</h1>
         <Leaderboard />
       </div>
     );
