@@ -1,20 +1,14 @@
 {
   "name": "Camper-Leaderboard",
   "version": "0.0.3",
-  "description": "React Webpack Babel Starter Kit",
+  "description": "Free Code Camp Camper Leaderboard",
   "main": "''",
   "scripts": {
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
     "start": "webpack-dev-server --progress --profile --colors",
     "lint": "eslint --ext js --ext jsx src || exit 0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alicoding/react-webpack-babel"
-  },
-  "author": "Ali Al Dallal",
-  "license": "MIT",
-  "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
+  "author": "Ryan Thomas",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.3",
     "node-sass": "^3.9.2",

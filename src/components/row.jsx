@@ -8,15 +8,15 @@ export default class Row extends React.Component {
       <tr>
         <td>{this.props.index}</td>
         <td>{this.props.name}</td>
-        <td>{this.props.p30}</td>
-        <td>{this.props.pAll}</td>
+        <td>{this.props.recent}</td>
+        <td>{this.props.alltime}</td>
       </tr>
     )
   }
 }
 Row.propTypes = {
   index: React.PropTypes.number.isRequired,
-  name: React.PropTypes.number.isRequired,
-  p30: React.PropTypes.number.isRequired,
-  pAll: React.PropTypes.number.isRequired,
+  name: React.PropTypes.string.isRequired,
+  recent: React.PropTypes.number.isRequired,
+  alltime: React.PropTypes.number.isRequired,
 }
